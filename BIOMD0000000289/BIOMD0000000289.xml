@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" metaid="_7cda4204-38c0-4735-8634-02d669277df7" version="4">
+  <model id="Alexander2010_Tcell_Regulation_Sys1" name="Alexander2010_Tcell_Regulation_Sys1" metaid="_528408">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This is system 1, the model with linear antigen uptake by pAPCs, described in the article:      <br/>
+                <strong>Self-tolerance and Autoimmunity in a Regulatory T Cell Model.</strong>
+                <br/>
+          Alexander HK, Wahl LM.      <em>Bull Math Biol.</em>
+          2010 Mar 2.
+          PMID:      <a href="http://www.ncbi.nlm.nih.gov/pubmed/20195912">20195912</a>
+          , doi:      <a href="http://dx.doi.org/10.1007/s11538-010-9519-2">10.1007/s11538-010-9519-2</a>
+          ;      <br/>
+                <strong>Abstract:</strong>
+                <br/>
+          The class of immunosuppressive lymphocytes known as regulatory T cells (Tregs) has been identified as a key component in preventing autoimmune diseases. Although Tregs have been incorporated previously in mathematical models of autoimmunity, we take a novel approach which emphasizes the importance of professional antigen presenting cells (pAPCs). We examine three possible mechanisms of Treg action (each in isolation) through ordinary differential equation (ODE) models. The immune response against a particular autoantigen is suppressed both by Tregs specific for that antigen and by Tregs of arbitrary specificities, through their action on either maturing or already mature pAPCs or on autoreactive effector T cells. In this deterministic approach, we find that qualitative long-term behaviour is predicted by the basic reproductive ratio R (0) for each system. When R (0) &lt; 1, only the trivial equilibrium exists and is stable; when R (0)>1, this equilibrium loses its stability and a stable non-trivial equilibrium appears. We interpret the absence of self-damaging populations at the trivial equilibrium to imply a state of self-tolerance, and their presence at the non-trivial equilibrium to imply a state of chronic autoimmunity. Irrespective of mechanism, our model predicts that Tregs specific for the autoantigen in question play no role in the system's qualitative long-term behaviour, but have quantitative effects that could potentially reduce an autoimmune response to sub-clinical levels. Our results also suggest an important role for Tregs of arbitrary specificities in modulating the qualitative outcome. A stochastic treatment of the same model demonstrates that the probability of developing a chronic autoimmune response increases with the initial exposure to self antigen or autoreactive effector T cells. The three different mechanisms we consider, while leading to a number of similar predictions, also exhibit key differences in both transient dynamics (ODE approach) and the probability of chronic autoimmunity (stochastic approach).      </p>
+            <p>Originally created by libAntimony v1.4 (using libSBML 3.4.1)</p>
+            </body>
+      
+    </notes>
+    <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_528408">
+	<dc:creator>
+	<rdf:Bag>
+	<rdf:li rdf:parseType="Resource">
+	<vCard:N rdf:parseType="Resource">
+	<vCard:Family>Juty</vCard:Family>
+	<vCard:Given>Nick</vCard:Given>
+	</vCard:N>
+	<vCard:EMAIL>juty@ebi.ac.uk</vCard:EMAIL>
+	<vCard:ORG rdf:parseType="Resource">
+	<vCard:Orgname>EMBL-EBI</vCard:Orgname>
+	</vCard:ORG>
+	</rdf:li>
+	<rdf:li rdf:parseType="Resource">
+	<vCard:N rdf:parseType="Resource">
+	<vCard:Family>Endler</vCard:Family>
+	<vCard:Given>Lukas</vCard:Given>
+	</vCard:N>
+	<vCard:EMAIL>lukas@ebi.ac.uk</vCard:EMAIL>
+	<vCard:ORG rdf:parseType="Resource">
+	<vCard:Orgname>EMBL-EBI</vCard:Orgname>
+	</vCard:ORG>
+	</rdf:li>
+	</rdf:Bag>
+	</dc:creator>
+	<dcterms:created rdf:parseType="Resource">
+	<dcterms:W3CDTF>2010-12-22T01:15:33Z</dcterms:W3CDTF>
+	</dcterms:created>
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2014-03-18T11:31:13Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	<bqmodel:is>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL1012220000"/>
+	</rdf:Bag>
+	</bqmodel:is>
+	<bqmodel:is>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000289"/>
+	</rdf:Bag>
+	</bqmodel:is>
+	<bqmodel:isDescribedBy>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/pubmed/20195912"/>
+	</rdf:Bag>
+	</bqmodel:isDescribedBy>
+	<bqbiol:isVersionOf>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/go/GO:0002667"/>
+	<rdf:li rdf:resource="http://identifiers.org/doid/DOID:417"/>
+	</rdf:Bag>
+	</bqbiol:isVersionOf>
+	<bqbiol:hasTaxon>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/taxonomy/33208"/>
+	</rdf:Bag>
+	</bqbiol:hasTaxon>
+	<bqbiol:hasProperty>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000046"/>
+	</rdf:Bag>
+	</bqbiol:hasProperty>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+      <listOfUnitDefinitions>
+      <unitDefinition id="substance" name="number" metaid="metaid_0000071">
+        <listOfUnits>
+          <unit metaid="_6febf048-78de-4602-a057-7366a9640aba" kind="item"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="time" name="days" metaid="metaid_0000072">
+        <listOfUnits>
+          <unit metaid="_931cba6b-479a-4cd8-95f9-f3c6b5680d4e" multiplier="86400" kind="second"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_day" name="per_day" metaid="metaid_0000074">
+        <listOfUnits>
+          <unit exponent="-1" metaid="dce90549-5e32-46d6-96dc-f8c917449f5b" multiplier="86400" kind="second"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_day_per_item" name="per_day_per_item" metaid="_0a6682e0-31f1-40a0-bbae-70c1c83a3bd5">
+        <listOfUnits>
+          <unit exponent="-1" metaid="_501ac08c-9564-4e3c-b640-be3002a6073f" multiplier="86400" kind="second"/>
+          <unit exponent="-1" metaid="a103d2ef-eef7-4bd5-8c37-588591f52cbf" kind="item"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="body" metaid="_528409" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="A" initialAmount="1" hasOnlySubstanceUnits="true" metaid="_528410" compartment="body">
+        <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_528410">
+	<bqbiol:isVersionOf>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/cl/CL:0000145"/>
+	</rdf:Bag>
+	</bqbiol:isVersionOf>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </species>
+      <species id="R" initialAmount="0" hasOnlySubstanceUnits="true" metaid="_528412" compartment="body">
+        <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_528412">
+	<bqbiol:isVersionOf>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/cl/CL:0000903"/>
+	</rdf:Bag>
+	</bqbiol:isVersionOf>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </species>
+      <species id="E" initialAmount="0" hasOnlySubstanceUnits="true" metaid="_528415" compartment="body">
+        <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_528415">
+	<bqbiol:isVersionOf>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/cl/CL:0000911"/>
+	</rdf:Bag>
+	</bqbiol:isVersionOf>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </species>
+      <species id="G" initialAmount="100000000" hasOnlySubstanceUnits="true" metaid="_528418" compartment="body">
+        <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_528418">
+	<bqbiol:isVersionOf>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:59132"/>
+	</rdf:Bag>
+	</bqbiol:isVersionOf>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </species>
+      <species id="A_im" initialAmount="0" hasOnlySubstanceUnits="true" metaid="_528421" boundaryCondition="true" compartment="body">
+        <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_528421">
+	<bqbiol:isVersionOf>
+	<rdf:Bag>
+	<rdf:li rdf:resource="http://identifiers.org/cl/CL:0000473"/>
+	</rdf:Bag>
+	</bqbiol:isVersionOf>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="v" metaid="_528466" value="0.0025" units="per_day"/>
+      <parameter id="f" metaid="_528467" value="0.0001" units="dimensionless"/>
+      <parameter id="gamma" metaid="_528469" value="2000" units="per_day"/>
+      <parameter id="beta" metaid="_528472" value="200" units="per_day"/>
+      <parameter id="pi1" metaid="_528475" value="0.016" units="per_day_per_item"/>
+      <parameter id="lambdaE" metaid="_528478" value="1000" units="per_day"/>
+      <parameter id="muA" metaid="_528481" value="0.25" units="per_day"/>
+      <parameter id="muR" metaid="_528484" value="0.25" units="per_day"/>
+      <parameter id="muE" metaid="_528487" value="0.25" units="per_day"/>
+      <parameter id="muG" metaid="_528490" value="5" units="per_day"/>
+      <parameter id="b1" metaid="_528493" value="0.25" units="per_day"/>
+      <parameter id="sigma1" metaid="_528496" value="3E-6" units="per_day_per_item"/>
+      <parameter id="mA" constant="false" metaid="_528499" units="per_day"/>
+      <parameter id="mG" constant="false" metaid="_528502" units="per_day"/>
+      <parameter id="R0" constant="false" metaid="_528505" units="dimensionless"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule metaid="_528461" variable="mA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <ci> b1 </ci>
+            <ci> muA </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_528462" variable="mG">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <ci> muG </ci>
+            <ci> v </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_528465" variable="R0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> f </ci>
+              <ci> v </ci>
+              <ci> lambdaE </ci>
+              <ci> gamma </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> mG </ci>
+              <ci> mA </ci>
+              <ci> muE </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction id="r1a" name="r1a: self-antigen uptake" metaid="_528422" reversible="false" sboTerm="SBO:0000185">
+        <listOfReactants>
+          <speciesReference species="G" metaid="_603f59d2-f1f0-4cf6-8a4f-0af0553c87c0"/>
+        </listOfReactants>
+        <kineticLaw metaid="_8e24d8b8-464a-4a2b-9b0b-805cf555b349">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> v </ci>
+              <ci> G </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r1b" name="r1b: pAPC maturation" metaid="_528425" reversible="false" sboTerm="SBO:0000182">
+        <listOfReactants>
+          <speciesReference species="A_im" metaid="e618f22f-4607-42bd-8d52-a617d3779915"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="A" metaid="_0741a38b-34fe-46a7-8f01-7aae536e7946"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="G" metaid="_7df6857c-27cb-45dd-86d0-b7ce1e398dbc"/>
+        </listOfModifiers>
+        <kineticLaw metaid="_41869850-79a2-4378-b6e0-605a5a855697">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> f </ci>
+              <ci> v </ci>
+              <ci> G </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r2" name="r2: self-antigen release triggered by E" metaid="_528428" reversible="false" sboTerm="SBO:0000185">
+        <listOfProducts>
+          <speciesReference species="G" metaid="_9e4ee2ee-12c1-45fa-85d5-bff11c15f093"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="E" metaid="b3627ff3-8abf-426a-b5e8-2a6d5784b7db"/>
+        </listOfModifiers>
+        <kineticLaw metaid="_581c25c5-92d1-4d69-aadd-5e0df7c3faa1">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> gamma </ci>
+              <ci> E </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r3" name="r3: R activation by A" metaid="_528431" reversible="false" sboTerm="SBO:0000170">
+        <listOfProducts>
+          <speciesReference species="R" metaid="baa17881-8dc1-4811-8dd5-133a7d996ff9"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="A" metaid="_37c7bd44-8a90-4edc-864b-6f1084424f77"/>
+        </listOfModifiers>
+        <kineticLaw metaid="_47d76364-162e-4630-bed5-48bfd3ff1b43">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> beta </ci>
+              <ci> A </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r4" name="r4: R activation by A and E" metaid="_528434" reversible="false" sboTerm="SBO:0000170">
+        <listOfProducts>
+          <speciesReference species="R" metaid="_9b04f645-9ae3-4f25-9b41-5ef59c7b19a9"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="A" metaid="_5b8fcae6-5ffc-495f-b697-c65c6479932d"/>
+          <modifierSpeciesReference species="E" metaid="_5ad6dad7-352e-464f-bdc5-1454e6964b76"/>
+        </listOfModifiers>
+        <kineticLaw metaid="d769db30-f6c1-46b3-9166-e205d73672d7">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> pi1 </ci>
+              <ci> E </ci>
+              <ci> A </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r5" name="r5: E generation by A" metaid="_528437" reversible="false" sboTerm="SBO:0000393">
+        <listOfProducts>
+          <speciesReference species="E" metaid="_20b384f9-64fa-4794-b951-85c40bdd6924"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="A" metaid="_510110eb-e201-4618-a86e-c659c2149c55"/>
+        </listOfModifiers>
+        <kineticLaw metaid="d2f1b8b8-683a-4fe2-8b32-6b97f5164ac3">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> lambdaE </ci>
+              <ci> A </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r6" name="r6: A death" metaid="_528440" reversible="false" sboTerm="SBO:0000394">
+        <listOfReactants>
+          <speciesReference species="A" metaid="_6674b0da-5fd8-4acf-95d9-943f0e9c1d9a"/>
+        </listOfReactants>
+        <kineticLaw metaid="_3c7596d0-4d97-4e0d-b3b2-c4224766f325">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> muA </ci>
+              <ci> A </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r7" name="r7: R death" metaid="_528443" reversible="false" sboTerm="SBO:0000394">
+        <listOfReactants>
+          <speciesReference species="R" metaid="_8fe5d4a8-196a-4f33-8d0c-36a68ad5e837"/>
+        </listOfReactants>
+        <kineticLaw metaid="cd45dcca-105e-42c8-bc63-1e6477e78075">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> muR </ci>
+              <ci> R </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r8" name="r8: E death" metaid="_528446" reversible="false" sboTerm="SBO:0000394">
+        <listOfReactants>
+          <speciesReference species="E" metaid="_43ca222c-8899-481e-a436-89cd4299bae8"/>
+        </listOfReactants>
+        <kineticLaw metaid="_8a6a8866-f6a8-42d2-9584-de09f876cd23">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> muE </ci>
+              <ci> E </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r9" name="r9: G clearance" metaid="_528449" reversible="false" sboTerm="SBO:0000394">
+        <listOfReactants>
+          <speciesReference species="G" metaid="c3a0e6c9-acc7-4172-9876-e88962334ec1"/>
+        </listOfReactants>
+        <kineticLaw metaid="_65d362d2-e461-43a5-ba0e-532faa627892">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> muG </ci>
+              <ci> G </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r10" name="r10: A suppression by Tregs of other specificity" metaid="_528452" reversible="false" sboTerm="SBO:0000169">
+        <listOfReactants>
+          <speciesReference species="A" metaid="dd40b624-1c50-48bc-8662-cb2ac5864d34"/>
+        </listOfReactants>
+        <kineticLaw metaid="df2513a7-8c9c-4fcf-b21c-9dfd2d66b6e6">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> b1 </ci>
+              <ci> A </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r11" name="r11: A suppression by R" metaid="_528455" reversible="false" sboTerm="SBO:0000169">
+        <listOfReactants>
+          <speciesReference species="A" metaid="_1107f301-48c5-42fe-9393-962add90a7c9"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="R" metaid="_9a369223-955c-48b4-9003-a4f5bb2f13e7"/>
+        </listOfModifiers>
+        <kineticLaw metaid="_52565350-d773-4a52-a3b1-65ae13d90f19">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> sigma1 </ci>
+              <ci> A </ci>
+              <ci> R </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
