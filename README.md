@@ -1,3 +1,21 @@
+# BIOMD0000000289: Alexander2010_Tcell_Regulation_Sys1
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000289.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000289.git@20140916`
+
+
+# Model Notes
 
 
 This is system 1, the model with linear antigen uptake by pAPCs, described in
@@ -37,4 +55,5 @@ dynamics (ODE approach) and the probability of chronic autoimmunity
 (stochastic approach).
 
 Originally created by libAntimony v1.4 (using libSBML 3.4.1)
+
 
